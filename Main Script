@@ -28,12 +28,12 @@ local Window = Rayfield:CreateWindow({
 
  local MainTab = Window:CreateTab("Main", nil) -- Title, Image
  local MainSection = MainTab:CreateSection("Info")
+ local MainSection = MainTab:CreateSection("Info")
+ local MainSection = MainTab:CreateSection("Info")
  local Auto FarmTab = Window:CreateTab("Auto Farm", nil) -- Title, Image
- local AutoSection = MainTab:CreateSection("Auto Gem")
  local MiscTab = Window:CreateTab("Misc", nil) -- Title, Image
- local MainSection = MainTab:CreateSection("Walkspeed")
  local PlayerTab = Window:CreateTab("Player Tab", nil) -- Title, Image
- local PlayerSection = PlayerTab:CreateSection("Info")
+
 
  Rayfield:Notify({
     Title = "You executed the script",
