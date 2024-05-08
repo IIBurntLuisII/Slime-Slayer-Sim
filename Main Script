@@ -54,7 +54,7 @@ local Window = Rayfield:CreateWindow({
                 game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
             end
         end)
-        local InfiniteJump = CreateButton("Infinite Jump: On", StuffFrame)
+        local InfiniteJump = CreateButton("Infinite Jump: Off", StuffFrame)
         InfiniteJump.Position = UDim2.new(0,10,0,130)
         InfiniteJump.Size = UDim2.new(0,150,0,30)
         InfiniteJump.MouseButton1Click:connect(function()
